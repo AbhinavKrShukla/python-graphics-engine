@@ -4,16 +4,16 @@
 This project is a 3D graphics engine built using Python, ModernGL, and Pygame. It is designed to render 3D models and scenes with lighting and camera controls.
 
 ## Installation
-1. Ensure you have Python installed on your system.
+1. Ensure you have Python and uv (package manager) installed on your system.
 2. Install the required packages using pip:
    ```
-   pip install pygame moderngl numpy PyOpenGL
+   uv sync
    ```
 
 ## Usage
 Run the main script to start the graphics engine:
 ```bash
-python main.py
+uv run main.py
 ```
 
 ## Features
@@ -32,6 +32,7 @@ python main.py
 - ModernGL
 - Numpy
 - PyOpenGL
+- PyGLM
 
 ## Contributing
 Feel free to fork this project and submit pull requests. For major changes, please open an issue first to discuss what you would like to change.
